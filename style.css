@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: black;
+}
+
+h1{
+  color: white;
+}
+
+h1, 
+h2{
+	text-align: center;
+	text-decoration: underline;	
+}
+
+.container{
+	border: 2px solid black;
+	padding: 10px;
+	display: block;
+	margin: 40px auto;
+	border-radius: 30px;
+	background-color: white;
+}
+
+.colorpanel{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.colorcyan {
+	color: black;
+	background-color: rgb(0,255,255);
+	display: inline-block;
+	width: 35%;
+	margin: 30px auto;
+	min-heigh: 100px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.colorfirebrick {
+	color: white;
+	background-color: rgb(178,34,34);
+	display: inline-block;
+	width: 35%;
+	margin: 20px auto;
+	min-heigh: 100px;
+	text-align: center;
+	border: 1px solid black;
+}
+.colormilitary {
+	color: white;
+	background-color: rgb(69, 75, 27);
+	display: inline-block;
+	width: 35%;
+	margin: 20px auto;
+	min-heigh: 100px;
+	text-align: center;
+	border: 1px solid black;
+}
+.colorbronze {
+	color: black;
+	background-color: rgb(169, 113, 66);
+	display: inline-block;
+	width: 35%;
+	margin: 20px auto;
+	min-heigh: 100px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.fontpanel {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 25px;
+}
+
+.fonttitle{
+	text-decoration: underline;
+}
+
+.monospace{
+	display: inline-block;
+	margin: 15px;
+}
+
+.monospacenorm{
+	font-family: monospace;
+}
+
+.monospaceital{
+	font-family: monospace;
+	font-style: italic; 
+}
+.monospacebold{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.cursive{
+	display: inline-block;
+	margin: 15px;
+}
+
+
+.cursivenorm{
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.cursiveital{
+	font-family: 'Cedarville Cursive', cursive;
+	font-style: italic; 
+}
+.cursivebold{
+	font-family: 'Cedarville Cursive', cursive;
+	font-weight: bold;
+}
+
+.atma{
+	display: inline-block;
+	margin: 15px;
+}
+
+
+.atmanorm{
+	font-family: 'Atma', system-ui;
+}
+
+.atmaital{
+	font-family: 'Atma', system-ui;
+	font-style: italic; 
+}
+.atmabold{
+	font-family: 'Atma', system-ui;
+	font-weight: bold;
+}
+
+.ptsans{
+	display: inline-block;
+	margin: 15px;
+}
+
+
+.ptsansnorm{
+	font-family: 'Atma', system-ui;
+font-family: 'PT Sans', sans-serif;
+}
+
+.ptsansital{
+	font-family: 'Atma', system-ui;
+font-family: 'PT Sans', sans-serif;
+	font-style: italic; 
+}
+.ptsansbold{
+	font-family: 'Atma', system-ui;
+font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+.textstylepanel {
+	width: 100%;
+	text-align: center;
+}
+
+
+.h1section,
+.h3section, 
+.psection{
+	display: inline-block;
+	margin: 15px;
+	text-align: left;
+	border: 1px solid black;
+	padding: 20px;
+	
+}
+
+.h1title,
+.h3title,
+.ptitle {
+	color: black;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
